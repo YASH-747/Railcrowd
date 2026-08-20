@@ -1,0 +1,88 @@
+[
+ {
+  "id": "seed-1",
+  "ts": "2026-08-17T18:51:56+05:30",
+  "type": "no_space_train",
+  "type_label": "No space to stand in train",
+  "train": "12951",
+  "station": "",
+  "message": "General coaches packed from Surat onwards, no place to stand near the doors.",
+  "votes": 12,
+  "seed": true
+ },
+ {
+  "id": "seed-2",
+  "ts": "2026-08-17T18:14:56+05:30",
+  "type": "overcrowded_platform",
+  "type_label": "Overcrowded platform",
+  "train": "",
+  "station": "BCT",
+  "message": "Platform 3 extremely crowded during evening rush, queue till the footbridge.",
+  "votes": 9,
+  "seed": true
+ },
+ {
+  "id": "seed-3",
+  "ts": "2026-08-17T17:37:56+05:30",
+  "type": "rain_platform",
+  "type_label": "Heavy rain on platform",
+  "train": "",
+  "station": "ADI",
+  "message": "Heavy rain on platform 6, floor very slippery near the escalator.",
+  "votes": 7,
+  "seed": true
+ },
+ {
+  "id": "seed-4",
+  "ts": "2026-08-17T17:00:56+05:30",
+  "type": "coach_issue",
+  "type_label": "Coach problem (AC/lights/doors)",
+  "train": "12009",
+  "station": "",
+  "message": "AC in coach C3 not working, quite hot inside.",
+  "votes": 5,
+  "seed": true
+ },
+ {
+  "id": "seed-5",
+  "ts": "2026-08-17T16:23:56+05:30",
+  "type": "delayed_train",
+  "type_label": "Train delayed / late",
+  "train": "19023",
+  "station": "",
+  "message": "Train held at outer signal for 25 minutes, no announcement.",
+  "votes": 4,
+  "seed": true
+ },
+ {
+  "id": "seed-6",
+  "ts": "2026-08-17T15:46:56+05:30",
+  "type": "cleanliness",
+  "type_label": "Cleanliness / hygiene",
+  "train": "",
+  "station": "NDLS",
+  "message": "Water bottles and food packets littered on platform 1.",
+  "votes": 3,
+  "seed": true
+ },
+ {
+  "id": "r1786975146822",
+  "ts": "2026-08-17T19:29:06+05:30",
+  "type": "overcrowded_platform",
+  "type_label": "Overcrowded platform",
+  "train": null,
+  "station": "ST",
+  "message": "Surat platform 2 totally packed during evening rush hour",
+  "votes": 1
+ },
+ {
+  "id": "r1786980384180",
+  "ts": "2026-08-17T20:56:24+05:30",
+  "type": "rain_platform",
+  "type_label": "Heavy rain on platform",
+  "train": null,
+  "station": "ST",
+  "message": "Water dripping on platform 2 near stairs",
+  "votes": 0
+ }
+]

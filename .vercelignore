@@ -1,0 +1,28 @@
+# RailCrowd — Vercel ignores build-only / heavy / secret files.
+# Only the runtime needs to ship: backend/*.py, api/*.py,
+# data/dataset.json, frontend/index.html (+ requirements.txt, vercel.json).
+
+# secrets — never upload
+backend/.env
+
+# heavy build-time sources (not needed at runtime)
+data/schedules.json
+data/trains.json
+data/stations.json
+data/stations_raw.txt
+data/india_composite.geojson
+data/india_gh.geojson
+data/india_states.geojson
+data/india_map.js
+
+# data build scripts + caches
+data/*.py
+data/snapshots/
+data/snapshots
+
+# python caches
+**/__pycache__
+**/*.pyc
+
+# local runtime artifacts
+data/reports.json

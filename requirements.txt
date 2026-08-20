@@ -1,0 +1,15 @@
+# RailCrowd backend dependencies (runtime + Vercel)
+# Install:  pip install -r requirements.txt
+#
+# flask              - web framework (API + static server; Vercel WSGI)
+# requests           - news crawler + Vercel KV REST + optional live APIs
+# psycopg2-binary    - optional: Vercel Postgres backend for community
+#                      reports/votes (only used when POSTGRES_URL is set)
+#
+# NOTE: numpy + scipy are needed ONLY to rebuild the local dataset
+# (data/build_dataset.py) — not at runtime. Install them separately:
+#   pip install numpy scipy
+
+flask>=3.0
+requests>=2.31
+psycopg2-binary>=2.9
